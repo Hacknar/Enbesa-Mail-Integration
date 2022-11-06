@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>103693000</GUID>
+      <Text>Airship Platform</Text>
+    </Text>
+    <Text>
+      <GUID>103693001</GUID>
+      <Text>Post Office</Text>
+    </Text>
+    <Text>
+      <GUID>103693002</GUID>
+      <Text>Post Box</Text>
+    </Text>
+    <Text>
+      <GUID>103693003</GUID>
+      <Text>Commuter Station</Text>
+    </Text>
+    <Text>
+      <GUID>103693004</GUID>
+      <Text>Item Transfer Depot</Text>
+    </Text>
+    <Text>
+      <GUID>103693005</GUID>
+      <Text>Mail Sorting Office</Text>
+    </Text>
+  </ModOp>
+</ModOps>
