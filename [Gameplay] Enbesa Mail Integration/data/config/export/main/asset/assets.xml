@@ -1,62 +1,11 @@
 <ModOps>
 
-					<!-- shepperd poulation needs ADD mail copy from jornaleros -->
-		<ModOp Type="add" GUID='114329' Path="/Values/PopulationLevel7/PopulationInputs">
-			<Item>
-				<Product>535</Product>
-				<Amount>0.00025</Amount>
-				<SupplyWeight>1</SupplyWeight>
-				<MoneyValue>20</MoneyValue>
-				<AdditionalGlobalUnlockRequirement>
-					<Population>114330</Population>
-					<MinPopulationAmount>1</MinPopulationAmount>
-				</AdditionalGlobalUnlockRequirement>
-				<ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
-				<IsBonusNeed>1</IsBonusNeed>
-			</Item>
-			<Item>
-				<Product>536</Product>
-				<Amount>0.000083</Amount>
-				<SupplyWeight>3</SupplyWeight>
-				<MoneyValue>25</MoneyValue>
-				<AdditionalGlobalUnlockRequirement>
-					<Population>114330</Population>
-					<MinPopulationAmount>1</MinPopulationAmount>
-				</AdditionalGlobalUnlockRequirement>
-				<ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
-				<IsBonusNeed>1</IsBonusNeed>
-			</Item>
-			<Item>
-				<Product>2524</Product>
-				<Amount>0.000083</Amount>
-				<SupplyWeight>5</SupplyWeight>
-				<MoneyValue>50</MoneyValue>
-				<AdditionalGlobalUnlockRequirement>
-					<Population>114330</Population>
-					<MinPopulationAmount>1000</MinPopulationAmount>
-				</AdditionalGlobalUnlockRequirement>
-				<ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
-				<IsBonusNeed>1</IsBonusNeed>
-			</Item>
-		</ModOp>
-						<!-- elder poulation needs ADD mail copy from obreros -->
-		<ModOp Type="add" GUID='114330' Path="/Values/PopulationLevel7/PopulationInputs">
-			<Item>
+				<!-- shepperd PoulationInputs ADD mail copy from jornaleros -->
+	<ModOp Type="add" GUID='114329' Path="/Values/PopulationLevel7/PopulationInputs">
+		<Item>
 			<Product>535</Product>
-			<Amount>0.000166667</Amount>
-			<SupplyWeight>4</SupplyWeight>
-			<MoneyValue>10</MoneyValue>
-			<AdditionalGlobalUnlockRequirement>
-				<Population>114330</Population>
-				<MinPopulationAmount>1</MinPopulationAmount>
-			</AdditionalGlobalUnlockRequirement>
-			<ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
-			<IsBonusNeed>1</IsBonusNeed>
-			</Item>
-			<Item>
-			<Product>536</Product>
-			<Amount>0.0005</Amount>
-			<SupplyWeight>5</SupplyWeight>
+			<Amount>0.00025</Amount>
+			<SupplyWeight>1</SupplyWeight>
 			<MoneyValue>20</MoneyValue>
 			<AdditionalGlobalUnlockRequirement>
 				<Population>114330</Population>
@@ -64,23 +13,74 @@
 			</AdditionalGlobalUnlockRequirement>
 			<ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
 			<IsBonusNeed>1</IsBonusNeed>
-			</Item>
-			<Item>
-			<Product>2524</Product>
-			<Amount>0.000166667</Amount>
-			<SupplyWeight>8</SupplyWeight>
-			<MoneyValue>40</MoneyValue>
+		</Item>
+		<Item>
+			<Product>536</Product>
+			<Amount>0.000083</Amount>
+			<SupplyWeight>3</SupplyWeight>
+			<MoneyValue>25</MoneyValue>
 			<AdditionalGlobalUnlockRequirement>
 				<Population>114330</Population>
 				<MinPopulationAmount>1</MinPopulationAmount>
 			</AdditionalGlobalUnlockRequirement>
 			<ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
 			<IsBonusNeed>1</IsBonusNeed>
-			</Item>
-		</ModOp>
+		</Item>
+		<Item>
+			<Product>2524</Product>
+			<Amount>0.000083</Amount>
+			<SupplyWeight>5</SupplyWeight>
+			<MoneyValue>50</MoneyValue>
+			<AdditionalGlobalUnlockRequirement>
+				<Population>114330</Population>
+				<MinPopulationAmount>1000</MinPopulationAmount>
+			</AdditionalGlobalUnlockRequirement>
+			<ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+			<IsBonusNeed>1</IsBonusNeed>
+		</Item>
+	</ModOp>
+					<!-- elder PoulationInputs ADD mail copy from obreros -->
+	<ModOp Type="add" GUID='114330' Path="/Values/PopulationLevel7/PopulationInputs">
+		<Item>
+		<Product>535</Product>
+		<Amount>0.000166667</Amount>
+		<SupplyWeight>4</SupplyWeight>
+		<MoneyValue>10</MoneyValue>
+		<AdditionalGlobalUnlockRequirement>
+			<Population>114330</Population>
+			<MinPopulationAmount>1</MinPopulationAmount>
+		</AdditionalGlobalUnlockRequirement>
+		<ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+		<IsBonusNeed>1</IsBonusNeed>
+		</Item>
+		<Item>
+		<Product>536</Product>
+		<Amount>0.0005</Amount>
+		<SupplyWeight>5</SupplyWeight>
+		<MoneyValue>20</MoneyValue>
+		<AdditionalGlobalUnlockRequirement>
+			<Population>114330</Population>
+			<MinPopulationAmount>1</MinPopulationAmount>
+		</AdditionalGlobalUnlockRequirement>
+		<ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+		<IsBonusNeed>1</IsBonusNeed>
+		</Item>
+		<Item>
+		<Product>2524</Product>
+		<Amount>0.000166667</Amount>
+		<SupplyWeight>8</SupplyWeight>
+		<MoneyValue>40</MoneyValue>
+		<AdditionalGlobalUnlockRequirement>
+			<Population>114330</Population>
+			<MinPopulationAmount>1</MinPopulationAmount>
+		</AdditionalGlobalUnlockRequirement>
+		<ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+		<IsBonusNeed>1</IsBonusNeed>
+		</Item>
+	</ModOp>
 
-	<ModOp GUID='4532' Type="addNextSibling">
 				<!-- trigger with elder pop -->
+	<ModOp GUID='4532' Type="addNextSibling">
     	<Asset>
 			<Template>FeatureUnlock</Template>
 			<Values>
@@ -279,7 +279,16 @@
 		</Asset>
     </ModOp>
 
-		<!-- add airship construction category after townhall in construction menu -->
+			<!-- Post exchange so that enbesa delivers overseas mail to other sessions -->
+	<ModOp Type="add" GUID='140011' Path="/Values/TradeRouteFeature/TransportationTypes/Mail/RouteAlchemy/SessionSwitch">
+		<Item>
+		<LeavingSession>112132</LeavingSession>
+		<LoadedGood>535</LoadedGood>
+		<UpgradedGood>2524</UpgradedGood>
+		</Item>
+	</ModOp>
+
+		<!-- add airship construction category (airhsip platform, post office and post box) after townhall in construction menu -->
 	<ModOp Type="addNextSibling" GUID='114554,119012' Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859']">
 		<Item>
 			<Building>103693018</Building>
